@@ -1,0 +1,29 @@
+cff-version: 1.2.0
+title: "Inspector DroneProof"
+message: "If you cite Inspector DroneProof, cite the tagged GitHub release and Zenodo DOI."
+type: software
+authors:
+  - family-names: Nasser
+    given-names: Richard Amir
+    orcid: "https://orcid.org/0009-0000-2980-7543"
+identifiers:
+  - type: doi
+    value: "10.5281/zenodo.21301426"
+  - type: url
+    value: "https://inspector-roofing.com/droneproof/"
+  - type: url
+    value: "https://huggingface.co/datasets/InspectorRoofing/inspector-droneproof-evidence-samples"
+repository-code: "https://github.com/RichNass87/inspector-droneproof"
+doi: "10.5281/zenodo.21301426"
+url: "https://inspector-roofing.com/droneproof/"
+abstract: "Inspector DroneProof is Android/Web roof documentation software for contractor flight planning, roof photo damage marking, QA, WordPress sync, and evidence packet export."
+keywords:
+  - roof documentation
+  - drone flight planning
+  - Android application
+  - roofing software
+  - evidence packet export
+  - damage photo marking
+license: MIT
+version: "0.5.0"
+date-released: "2026-07-10"
