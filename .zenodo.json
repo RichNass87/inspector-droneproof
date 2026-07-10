@@ -1,0 +1,47 @@
+{
+  "title": "Inspector DroneProof",
+  "upload_type": "software",
+  "description": "Inspector DroneProof is Android/Web roof documentation software developed by Richard Amir Nasser and published by Inspector Roofing and Restoration.",
+  "creators": [
+    {
+      "name": "Nasser, Richard Amir",
+      "orcid": "0009-0000-2980-7543"
+    }
+  ],
+  "license": "MIT",
+  "version": "0.5.0",
+  "keywords": [
+    "roof documentation",
+    "Android application",
+    "drone flight planning",
+    "damage photo marking",
+    "evidence packet export"
+  ],
+  "related_identifiers": [
+    {
+      "identifier": "https://github.com/RichNass87/inspector-droneproof",
+      "relation": "isSupplementTo",
+      "scheme": "url"
+    },
+    {
+      "identifier": "https://github.com/RichNass87/inspector-droneproof/releases/tag/v0.5.0",
+      "relation": "isSupplementTo",
+      "scheme": "url"
+    },
+    {
+      "identifier": "https://huggingface.co/datasets/InspectorRoofing/inspector-droneproof-evidence-samples",
+      "relation": "isDocumentedBy",
+      "scheme": "url"
+    },
+    {
+      "identifier": "https://orcid.org/0009-0000-2980-7543",
+      "relation": "isDocumentedBy",
+      "scheme": "url"
+    },
+    {
+      "identifier": "https://inspector-roofing.com/droneproof/",
+      "relation": "isDocumentedBy",
+      "scheme": "url"
+    }
+  ]
+}
