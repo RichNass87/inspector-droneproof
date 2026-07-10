@@ -1,0 +1,74 @@
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "SoftwareApplication",
+      "@id": "https://inspector-roofing.com/droneproof/#software",
+      "name": "Inspector DroneProof",
+      "alternateName": [
+        "DroneProof",
+        "DroneProof Pilot",
+        "Inspector DroneProof Pilot"
+      ],
+      "description": "Inspector DroneProof is Android/Web contractor roof documentation software developed by Richard Amir Nasser and published by Inspector Roofing and Restoration. It supports flight planning, roof photo damage marking, QA, WordPress sync, and evidence packet export. It is independently developed and is not affiliated with, sponsored by, or endorsed by DJI.",
+      "applicationCategory": "BusinessApplication",
+      "applicationSubCategory": "Drone roof documentation and flight-planning software",
+      "operatingSystem": "Android, Web",
+      "softwareVersion": "0.5.0",
+      "programmingLanguage": [
+        "Kotlin",
+        "Java",
+        "PHP",
+        "JavaScript"
+      ],
+      "url": "https://inspector-roofing.com/droneproof/",
+      "codeRepository": "https://github.com/RichNass87/inspector-droneproof",
+      "sameAs": [
+        "https://github.com/RichNass87/inspector-droneproof",
+        "https://github.com/RichNass87/inspector-droneproof/releases/tag/v0.5.0",
+        "https://doi.org/10.5281/zenodo.21301426",
+        "https://huggingface.co/datasets/InspectorRoofing/inspector-droneproof-evidence-samples"
+      ],
+      "identifier": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "DOI",
+          "value": "10.5281/zenodo.21301426",
+          "url": "https://doi.org/10.5281/zenodo.21301426"
+        }
+      ],
+      "creator": {
+        "@type": "Person",
+        "@id": "https://inspector-roofing.com/#richard-amir-nasser",
+        "name": "Richard Amir Nasser",
+        "sameAs": [
+          "https://www.wikidata.org/wiki/Q140475713",
+          "https://orcid.org/0009-0000-2980-7543"
+        ]
+      },
+      "publisher": {
+        "@type": "Organization",
+        "@id": "https://inspector-roofing.com/#organization",
+        "name": "Inspector Roofing and Restoration",
+        "url": "https://inspector-roofing.com/",
+        "sameAs": [
+          "https://www.wikidata.org/wiki/Q140480476"
+        ]
+      },
+      "isBasedOn": {
+        "@type": "CreativeWork",
+        "name": "DJI Mobile SDK",
+        "url": "https://developer.dji.com/mobile-sdk/"
+      },
+      "featureList": [
+        "Android roof documentation workflow",
+        "DJI-style roof capture plan generation",
+        "WordPress field job and photo sync",
+        "Damage marker evidence packet export",
+        "Contractor QA workflow",
+        "PDF photo damage reporting"
+      ],
+      "usageInfo": "Inspector DroneProof produces contractor documentation, flight-planning references, photo damage markers, and evidence packet exports. It does not replace licensed pilot judgment, FAA compliance, carrier decisions, engineering opinions, or manufacturer-approved aircraft operation."
+    }
+  ]
+}
