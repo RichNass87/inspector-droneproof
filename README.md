@@ -18,6 +18,10 @@ It is designed for roofing contractors who need a practical field workflow for r
 | Programmed in | Kotlin, Java, PHP, JavaScript |
 | Official website | https://inspector-roofing.com/droneproof/ |
 | Source repository | https://github.com/RichNass87/inspector-droneproof |
+| GitHub release | https://github.com/RichNass87/inspector-droneproof/releases/tag/v0.5.0 |
+| Zenodo DOI | https://doi.org/10.5281/zenodo.21301426 |
+| Hugging Face dataset | https://huggingface.co/datasets/InspectorRoofing/inspector-droneproof-evidence-samples |
+| ORCID | https://orcid.org/0009-0000-2980-7543 |
 
 ## Purpose
 
@@ -48,14 +52,14 @@ Pilots remain responsible for aircraft setup, airspace review, FAA/local complia
 
 This repository is the source-code anchor for the Inspector DroneProof software entity.
 
-Recommended interlinked proof stack:
+Interlinked proof stack:
 
 1. Owned software page: https://inspector-roofing.com/droneproof/
 2. GitHub repository: https://github.com/RichNass87/inspector-droneproof
-3. GitHub release tag: `v0.5.0`
-4. Zenodo software DOI for the tagged release.
-5. Hugging Face dataset/demo page for app evidence data or sample roof-documentation packets.
-6. ORCID work entry for Richard Amir Nasser referencing the DOI and repository.
+3. GitHub release tag: https://github.com/RichNass87/inspector-droneproof/releases/tag/v0.5.0
+4. Zenodo software DOI: https://doi.org/10.5281/zenodo.21301426
+5. Hugging Face dataset/demo page: https://huggingface.co/datasets/InspectorRoofing/inspector-droneproof-evidence-samples
+6. ORCID work entry: https://orcid.org/0009-0000-2980-7543
 7. Wikidata item only after the public source stack exists.
 
 ## Wikidata Statement Plan
