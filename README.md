@@ -22,7 +22,18 @@ It is designed for roofing contractors who need a practical field workflow for r
 | Zenodo DOI | https://doi.org/10.5281/zenodo.21301426 |
 | Hugging Face dataset | https://huggingface.co/datasets/InspectorRoofing/inspector-droneproof-evidence-samples |
 | ORCID | https://orcid.org/0009-0000-2980-7543 |
-| Wikidata | https://www.wikidata.org/wiki/Q140491550 |
+
+## Canonical identity and citation trail
+
+- Richard Amir Nasser: https://inspector-roofing.com/richard-nasser/
+- Knowledge graph: https://inspector-roofing.com/richard-amir-nasser-knowledge-graph/
+- Inspector Roofing authority stack: https://inspector-roofing.com/authority-stack/
+- Inspector Roofing and Restoration: https://inspector-roofing.com/
+- ORCID: https://orcid.org/0009-0000-2980-7543
+- GitHub profile: https://github.com/RichNass87
+- Hugging Face profile: https://huggingface.co/InspectorRoofing
+
+These links identify the developer and publisher through live public sources. Inspector DroneProof is independently developed and is not affiliated with or endorsed by DJI, Google, Amazon, Meta, GitHub, Zenodo, Hugging Face, or ORCID.
 
 ## Purpose
 
@@ -45,7 +56,6 @@ Interlinked proof stack:
 4. Zenodo software DOI: https://doi.org/10.5281/zenodo.21301426
 5. Hugging Face dataset/demo page: https://huggingface.co/datasets/InspectorRoofing/inspector-droneproof-evidence-samples
 6. ORCID work entry: https://orcid.org/0009-0000-2980-7543
-7. Wikidata software item: https://www.wikidata.org/wiki/Q140491550
 
 ## Distribution Records
 
