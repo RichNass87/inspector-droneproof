@@ -5,7 +5,7 @@
   "androidVersionCode": 4,
   "wordpressPluginVersion": "6.10.3",
   "releaseDate": "2026-07-17",
-  "releaseState": "public",
+  "releaseState": "published",
   "publicReleaseUrl": "https://github.com/RichNass87/inspector-droneproof/releases/tag/v0.6.0",
   "canonicalPage": "https://inspector-roofing.com/droneproof/",
   "packageName": "com.inspectorroofing.droneproofpilot",
