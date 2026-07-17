@@ -1,31 +1,32 @@
-# Inspector DroneProof Proof Source Map
+# Inspector DroneProof source map
 
-This file documents how each public source should connect to the next.
+## Canonical identity
 
-## Canonical Identity
-
-- Software name: Inspector DroneProof
+- Software: Inspector DroneProof
 - Developer: Richard Amir Nasser
 - Publisher: Inspector Roofing and Restoration
-- Official page: https://inspector-roofing.com/droneproof/
-- GitHub repository: https://github.com/RichNass87/inspector-droneproof
-- Release tag: https://github.com/RichNass87/inspector-droneproof/releases/tag/v0.5.0
-- Zenodo DOI: https://doi.org/10.5281/zenodo.21301426
-- Hugging Face dataset: https://huggingface.co/datasets/InspectorRoofing/inspector-droneproof-evidence-samples
+- Canonical page: https://inspector-roofing.com/droneproof/
+- Source release: https://github.com/RichNass87/inspector-droneproof/releases/tag/v0.6.0
+- Project DOI, all versions: https://doi.org/10.5281/zenodo.21301425
+- Archived v0.5.0 DOI: https://doi.org/10.5281/zenodo.21301426
+- Evidence samples: https://huggingface.co/datasets/InspectorRoofing/inspector-droneproof-evidence-samples
 - ORCID: https://orcid.org/0009-0000-2980-7543
-- Package name: `com.inspectorroofing.droneproofpilot`
+- Android package: `com.inspectorroofing.droneproofpilot`
 
-## Interconnection Rules
+## Relationship labels
 
-- GitHub README links to `/droneproof/`, Zenodo DOI, Hugging Face page, and ORCID.
-- Zenodo metadata links to GitHub release, Hugging Face, ORCID, and `/droneproof/`.
-- Hugging Face README links to GitHub, Zenodo DOI, and `/droneproof/`.
-- `/droneproof/` links to GitHub, Zenodo DOI, Hugging Face, and ORCID.
-- ORCID work entry links to Zenodo DOI and GitHub release.
-- Wikidata item should cite the owned page, GitHub release, Zenodo DOI, and Hugging Face page.
+- GitHub is the versioned source and evidence package.
+- The concept DOI is the persistent project record across releases.
+- The version DOI identifies the archived v0.5.0 software record.
+- Hugging Face hosts synthetic, non-private evidence examples.
+- ORCID identifies the creator relationship.
+- The owned page provides product purpose, boundaries, privacy, terms, and internal links.
+- Amazon publication is recorded as distribution evidence without an endorsement claim or unsupported stable listing URL.
 
-## DJI Boundary
+## Hard boundaries
 
-Inspector DroneProof is independently developed and is not affiliated with, sponsored by, or endorsed by DJI.
-
-DJI SDK references should point to public DJI developer documentation only when discussing SDK compatibility or source-code integration boundaries.
+- No standalone DroneProof Wikidata item is treated as live.
+- No Google Play production availability is claimed.
+- Direct DJI aircraft control is not implemented.
+- Inspector DroneProof is independently developed and is not affiliated with, sponsored by, certified by, or endorsed by DJI.
+- Inspector Roofing documents observable conditions and does not act as a public adjuster. Carriers decide coverage, payment, and claim outcomes.

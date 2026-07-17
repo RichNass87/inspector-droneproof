@@ -1,0 +1,34 @@
+package com.inspectorroofing.droneproofpilot
+
+/*
+This file is intentionally not compiled.
+
+Use it as the starting point after adding the official DJI Mobile SDK for the
+specific aircraft/controller you plan to support.
+
+High-level wiring:
+
+1. Register DJI SDK with the App Key configured in AndroidManifest metadata.
+2. Listen for product/aircraft connection callbacks.
+3. Convert DroneProofWaypoint entries into the current DJI waypoint mission type.
+4. Upload the mission to the aircraft.
+5. Require explicit pilot confirmation before start.
+6. Stream mission progress and camera events back into the UI.
+
+Do not enable start/launch actions until simulator, props-off bench testing,
+and controlled field testing are complete.
+*/
+
+class DjiSdkRealAdapterExample {
+    fun registerSdk() {
+        // Example location for DJI SDK registration.
+    }
+
+    fun uploadMission(mission: DroneProofMission) {
+        // Convert mission.waypoints to DJI waypoint mission objects here.
+    }
+
+    fun startMissionAfterPilotApproval() {
+        // Call DJI start only after all pilot and app checks pass.
+    }
+}

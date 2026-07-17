@@ -2,7 +2,7 @@
   "metadata": {
     "title": "Inspector DroneProof",
     "upload_type": "software",
-    "description": "Inspector DroneProof is Android/Web roof documentation software developed by Richard Amir Nasser and published by Inspector Roofing and Restoration. It supports contractor roof documentation, DJI-style flight planning, roof photo damage marking, QA, WordPress field sync, and evidence packet export. Inspector DroneProof is independently developed and is not affiliated with, sponsored by, or endorsed by DJI.",
+    "description": "Versioned Android and WordPress source package for pilot-reviewed roof documentation, field-photo intake, annotations, QA notes, and evidence-packet export. The package does not include DJI SDK binaries and does not arm, launch, or command an aircraft.",
     "creators": [
       {
         "name": "Nasser, Richard Amir",
@@ -16,26 +16,31 @@
       }
     ],
     "license": "MIT",
-    "version": "0.5.0",
-    "publication_date": "2026-07-10",
+    "version": "0.6.0",
+    "publication_date": "2026-07-17",
     "keywords": [
       "roof documentation",
       "Android application",
-      "drone flight planning",
-      "damage photo marking",
+      "drone capture planning",
+      "field photo intake",
       "evidence packet export",
       "Inspector Roofing",
       "Richard Amir Nasser"
     ],
     "related_identifiers": [
       {
-        "identifier": "https://github.com/RichNass87/inspector-droneproof",
-        "relation": "isSupplementTo",
-        "scheme": "url"
+        "identifier": "10.5281/zenodo.21301425",
+        "relation": "isVersionOf",
+        "scheme": "doi"
       },
       {
-        "identifier": "https://github.com/RichNass87/inspector-droneproof/releases/tag/v0.5.0",
-        "relation": "isSupplementTo",
+        "identifier": "10.5281/zenodo.21301426",
+        "relation": "isNewVersionOf",
+        "scheme": "doi"
+      },
+      {
+        "identifier": "https://github.com/RichNass87/inspector-droneproof/releases/tag/v0.6.0",
+        "relation": "isIdenticalTo",
         "scheme": "url"
       },
       {
@@ -54,6 +59,6 @@
         "scheme": "url"
       }
     ],
-    "notes": "Inspector DroneProof references DJI-style mission planning and may be wired to official DJI Mobile SDK workflows where supported. It is not affiliated with, sponsored by, or endorsed by DJI."
+    "notes": "Inspector DroneProof is independently developed and is not affiliated with, sponsored by, certified by, or endorsed by DJI. Direct aircraft control is not implemented."
   }
 }

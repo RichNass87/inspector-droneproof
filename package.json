@@ -1,0 +1,21 @@
+{
+  "name": "inspector-droneproof",
+  "version": "0.6.0",
+  "description": "Versioned source and evidence package for Inspector DroneProof.",
+  "type": "module",
+  "private": true,
+  "scripts": {
+    "checksums": "node scripts/generate-checksums.mjs",
+    "validate": "node scripts/validate-release.mjs"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/RichNass87/inspector-droneproof.git"
+  },
+  "homepage": "https://inspector-roofing.com/droneproof/",
+  "author": "Richard Amir Nasser",
+  "license": "MIT",
+  "engines": {
+    "node": ">=18"
+  }
+}

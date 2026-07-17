@@ -1,110 +1,85 @@
 # Inspector DroneProof
 
-Inspector DroneProof is Android/Web roof documentation software developed by Richard Amir Nasser and published by Inspector Roofing and Restoration.
+Inspector DroneProof is Android and WordPress roof-documentation software developed by Richard Amir Nasser and published by Inspector Roofing and Restoration. It organizes job inputs, pilot-reviewed capture plans, roof photos, damage markers, QA notes, and evidence-packet exports.
 
-It is designed for roofing contractors who need a practical field workflow for roof documentation, DJI-style flight planning, damage photo marking, QA review, WordPress job sync, and evidence packet export.
-
-## Software Identity
+## Release identity
 
 | Field | Value |
 | --- | --- |
-| Name | Inspector DroneProof |
-| Also known as | DroneProof, DroneProof Pilot, Inspector DroneProof Pilot |
-| Type | Android application / software application |
+| Evidence/source package | `v0.6.0` |
+| Android application | `0.4.0-droneproof` (`versionCode 4`) |
+| WordPress plugin | `6.10.3` |
+| Android package | `com.inspectorroofing.droneproofpilot` |
 | Developer | Richard Amir Nasser |
 | Publisher | Inspector Roofing and Restoration |
-| Platform | Android, Web |
-| Package name | `com.inspectorroofing.droneproofpilot` |
-| Programmed in | Kotlin, Java, PHP, JavaScript |
-| Official website | https://inspector-roofing.com/droneproof/ |
-| Source repository | https://github.com/RichNass87/inspector-droneproof |
-| GitHub release | https://github.com/RichNass87/inspector-droneproof/releases/tag/v0.5.0 |
-| Zenodo DOI | https://doi.org/10.5281/zenodo.21301426 |
-| Hugging Face dataset | https://huggingface.co/datasets/InspectorRoofing/inspector-droneproof-evidence-samples |
+| Canonical page | https://inspector-roofing.com/droneproof/ |
+| Repository | https://github.com/RichNass87/inspector-droneproof |
+| Release | https://github.com/RichNass87/inspector-droneproof/releases/tag/v0.6.0 |
+| Project DOI, all versions | https://doi.org/10.5281/zenodo.21301425 |
+| Archived v0.5.0 DOI | https://doi.org/10.5281/zenodo.21301426 |
+| Evidence samples | https://huggingface.co/datasets/InspectorRoofing/inspector-droneproof-evidence-samples |
 | ORCID | https://orcid.org/0009-0000-2980-7543 |
+| Privacy | https://inspector-roofing.com/privacy-policy/ |
+| Terms | https://inspector-roofing.com/terms/ |
 
-## Canonical identity and citation trail
+The evidence-package version and Android application version are different identifiers. They must not be presented as the same release number. Zenodo DOI `10.5281/zenodo.21301425` is the project-level concept DOI. DOI `10.5281/zenodo.21301426` identifies the archived `v0.5.0` software record and is retained only with that version label.
 
-- Richard Amir Nasser: https://inspector-roofing.com/richard-nasser/
-- Knowledge graph: https://inspector-roofing.com/richard-amir-nasser-knowledge-graph/
-- Inspector Roofing authority stack: https://inspector-roofing.com/authority-stack/
-- Inspector Roofing and Restoration: https://inspector-roofing.com/
-- ORCID: https://orcid.org/0009-0000-2980-7543
-- GitHub profile: https://github.com/RichNass87
-- Hugging Face profile: https://huggingface.co/InspectorRoofing
+## Implemented scope
 
-These links identify the developer and publisher through live public sources. Inspector DroneProof is independently developed and is not affiliated with or endorsed by DJI, Google, Amazon, Meta, GitHub, Zenodo, Hugging Face, or ORCID.
+- Loads a fallback mission or the latest authorized WordPress field job.
+- Captures or imports roof photos on Android.
+- Uploads authorized photos and job data to the configured WordPress endpoint.
+- Parses waypoints, altitude, heading, camera pitch, and roof-plane labels.
+- Requires a pilot checklist before exposing the flight-start bridge.
+- Exports documentation data and report inputs from the WordPress application.
 
-## Purpose
+## Unimplemented and unverified scope
 
-- Build roof documentation job files.
-- Generate DJI-style roof capture plans and waypoint exports.
-- Intake drone or phone roof photos.
-- Mark damage points by slope, type, severity, and note.
-- Sync field job data back to WordPress.
-- Export contractor-ready evidence packets and PDF photo damage reports.
+- The repository does not include DJI SDK binaries.
+- The Android application does not arm, launch, or command an aircraft.
+- Direct DJI aircraft control has not been hardware-tested or safety-validated.
+- Google Play production availability is not claimed by this package.
+- A DJI developer-console record is development provenance, not DJI approval or endorsement.
 
-## Public Proof Stack
+Inspector DroneProof is independently developed and is not affiliated with, sponsored by, certified by, or endorsed by DJI, Google, Amazon, GitHub, Zenodo, Hugging Face, or ORCID.
 
-This repository is the source-code anchor for the Inspector DroneProof software entity.
+## Distribution evidence
 
-Interlinked proof stack:
+- Amazon Appstore publication: Inspector DroneProof `0.4.0-droneproof` was reported live on July 16, 2026. The retained Amazon email reports Primary Validation, Content Policy Validation, and Functionality Validation as PASS. This is first-party publication evidence; no stable public listing URL has been captured in this package, and no Amazon endorsement is claimed.
+- Google Play: an Android App Bundle exists for internal or closed-track review. Production availability is not claimed.
+- DJI: the package and developer application were configured in the developer console. The SDK adapter and aircraft control remain unimplemented.
 
-1. Owned software page: https://inspector-roofing.com/droneproof/
-2. GitHub repository: https://github.com/RichNass87/inspector-droneproof
-3. GitHub release tag: https://github.com/RichNass87/inspector-droneproof/releases/tag/v0.5.0
-4. Zenodo software DOI: https://doi.org/10.5281/zenodo.21301426
-5. Hugging Face dataset/demo page: https://huggingface.co/datasets/InspectorRoofing/inspector-droneproof-evidence-samples
-6. ORCID work entry: https://orcid.org/0009-0000-2980-7543
+See [docs/DISTRIBUTION-EVIDENCE.md](docs/DISTRIBUTION-EVIDENCE.md) and [artifacts/android-artifact.json](artifacts/android-artifact.json) for the exact evidence boundary and bundle checksum.
 
-## Distribution Records
+## Repository contents
 
-| Platform | Public-safe identifier | Status observed on 2026-07-11 |
-| --- | --- | --- |
-| Amazon Appstore | App ID `amzn1.devportal.mobileapp.94f3fd69e00a4055b9f2fe5d5e50c89e` | Draft app record created; app file upload required before submission can move forward |
-| Amazon Appstore | Release ID `amzn1.devportal.apprelease.dc3efbc786a14a53bb7144b5f7bce73b` | Draft release record |
-| Meta for Developers | App ID `1259026162836066` | Created, unpublished |
-| Meta for Developers | Business ID `636031046737980` | Developer/business account association |
+- `android-app/`: Kotlin Android field application source.
+- `wordpress-plugin/`: WordPress application, REST routes, page/schema output, and compliance-page creation.
+- `examples/`: synthetic, deidentified evidence-packet example.
+- `screenshots/`: app identity and store-review images.
+- `metadata/`: public-safe SoftwareApplication JSON-LD and knowledge-graph planning notes.
+- `scripts/`: checksum generator and internal release-readiness validator.
+- `docs/`: methodology, privacy, data-safety, testing, distribution, and source-map documents.
 
-These records are distribution-development evidence. They do not mean Amazon, Meta, DJI, GitHub, Zenodo, Hugging Face, Wikidata, or ORCID endorses the software or the company.
+Compiled Android binaries are excluded from source control. The WordPress distribution package may include a separately built debug APK for controlled testing; it is not a Google Play production release.
 
-## DJI Boundary
+## Knowledge-graph boundary
 
-Inspector DroneProof references DJI-style mission planning and includes a source-kit boundary for official DJI Mobile SDK wiring. It is independently developed and is not affiliated with, sponsored by, or endorsed by DJI.
+No standalone DroneProof Wikidata item is treated as live or verified by this release. The previously used `Q140491550` identifier is retired and intentionally excluded. A GitHub repository, DOI, owned page, ORCID entry, dataset card, or store publication does not by itself establish Wikidata notability.
 
-Pilots remain responsible for aircraft setup, airspace review, FAA/local compliance, line-of-sight operations, safety checks, and final route approval inside the actual flight app.
+## Insurance boundary
 
-## Repository Contents
+Inspector Roofing documents observable roof conditions and organizes contractor documentation. It does not act as a public adjuster. Carriers decide coverage, payment, and claim outcomes. DroneProof does not interpret policy language, promise approval, or determine coverage.
 
-- `android-app/` - Android starter source for the DroneProof Pilot workflow.
-- `wordpress-plugin/` - WordPress plugin source for the `/droneproof/` page, REST routes, PDF export, and schema.
-- `screenshots/` - Play Store/app identity screenshots and app graphics.
-- `docs/` - sample report, proof-source documentation, and platform distribution notes.
-- `metadata/` - JSON-LD, Wikidata statement plan, and software identity records.
-- `huggingface/` - README content for a matching Hugging Face dataset/demo page.
-- `zenodo/` - DOI metadata draft for a Zenodo software record.
+## Validation
 
-## Wikidata Statement Plan
+```bash
+npm run checksums
+npm run validate
+```
 
-Current software item:
-
-- Inspector DroneProof: https://www.wikidata.org/wiki/Q140491550
-
-Good software statements to keep referenced and conservative:
-
-- instance of: mobile app / application software
-- developer: Richard Amir Nasser, using Wikidata property `P178`
-- operating system: Android, using `P306`
-- platform: Android, using `P400` where supported by public source
-- source code repository URL: this GitHub repo, using `P1324`
-- programmed in: Kotlin / Java / PHP / JavaScript, only where supported by the public source, using `P277`
-- official website: https://inspector-roofing.com/droneproof/
-- DOI: https://doi.org/10.5281/zenodo.21301426
-
-Do not add draft-only Amazon or unpublished Meta records to Wikidata until there is a stable public URL suitable for citation.
+The validator measures internal package completeness and hard-gate compliance. It is not an independent certification, search ranking, Play approval, DJI approval, or statement that the application is production-ready.
 
 ## License
 
-Copyright Inspector Roofing and Restoration.
-
-The documentation and public metadata in this repository are released under CC BY 4.0. Source-code files are released under the license stated in `LICENSE` unless a file header states otherwise.
+Source code is MIT licensed. Documentation, metadata, and the synthetic example are CC BY 4.0 as described in [LICENSE-DOCS.md](LICENSE-DOCS.md).

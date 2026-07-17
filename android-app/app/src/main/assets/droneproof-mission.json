@@ -1,0 +1,61 @@
+{
+  "missionId": "IR-CLAIM-001",
+  "generatedBy": "Inspector DroneProof Contractor Planner",
+  "address": "123 Main St, Alpharetta, GA",
+  "drone": "DJI Mavic 3 Enterprise",
+  "roofStyle": "hip",
+  "stories": 2,
+  "pitch": "standard",
+  "overlap": 40,
+  "geo": {
+    "ok": false,
+    "mode": "relative"
+  },
+  "flightInstructions": [
+    {
+      "id": "WP-01",
+      "action": "Four-corner overview",
+      "altitudeFt": 86,
+      "cameraPitchDeg": -58,
+      "headingDeg": 35,
+      "targetPlane": "ALL",
+      "capture": "Property context, all roof faces, access, and street reference."
+    },
+    {
+      "id": "WP-02",
+      "action": "Front slope grid",
+      "altitudeFt": 44,
+      "cameraPitchDeg": -72,
+      "headingDeg": 82,
+      "targetPlane": "A",
+      "capture": "Front slope grid with 40 percent overlap for claim documentation."
+    },
+    {
+      "id": "WP-03",
+      "action": "Rear slope grid",
+      "altitudeFt": 44,
+      "cameraPitchDeg": -72,
+      "headingDeg": 129,
+      "targetPlane": "B",
+      "capture": "Rear slope grid with 40 percent overlap for claim documentation."
+    },
+    {
+      "id": "WP-04",
+      "action": "Right return sweep",
+      "altitudeFt": 44,
+      "cameraPitchDeg": -72,
+      "headingDeg": 176,
+      "targetPlane": "C",
+      "capture": "Right return sweep with 40 percent overlap for claim documentation."
+    },
+    {
+      "id": "WP-05",
+      "action": "Left return sweep",
+      "altitudeFt": 44,
+      "cameraPitchDeg": -72,
+      "headingDeg": 223,
+      "targetPlane": "D",
+      "capture": "Left return sweep with 40 percent overlap for claim documentation."
+    }
+  ]
+}

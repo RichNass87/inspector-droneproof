@@ -1,6 +1,6 @@
 ---
 title: Inspector DroneProof Evidence Samples
-emoji: 🏠
+emoji: house
 colorFrom: blue
 colorTo: red
 sdk: static
@@ -12,28 +12,26 @@ tags:
   - drone
   - android
   - documentation
-  - damage-detection
   - evidence-packets
 ---
 
 # Inspector DroneProof Evidence Samples
 
-Inspector DroneProof is Android/Web roof documentation software developed by Richard Amir Nasser and published by Inspector Roofing and Restoration.
+Synthetic, non-private examples supporting Inspector DroneProof, Android and WordPress roof-documentation software developed by Richard Amir Nasser and published by Inspector Roofing and Restoration.
 
-This Hugging Face page is intended to host sample, non-private evidence data for the app: example mission JSON, safe sample roof-photo metadata, damage-marker schemas, QA output examples, and packet-export examples.
+## Connected sources
 
-## Connected Sources
+- Canonical page: https://inspector-roofing.com/droneproof/
+- Source repository: https://github.com/RichNass87/inspector-droneproof
+- Source release: https://github.com/RichNass87/inspector-droneproof/releases/tag/v0.6.0
+- Project DOI, all versions: https://doi.org/10.5281/zenodo.21301425
+- Archived v0.5.0 DOI: https://doi.org/10.5281/zenodo.21301426
+- ORCID: https://orcid.org/0009-0000-2980-7543
 
-- Official software page: https://inspector-roofing.com/droneproof/
-- GitHub repository: https://github.com/RichNass87/inspector-droneproof
-- GitHub release: https://github.com/RichNass87/inspector-droneproof/releases/tag/v0.5.0
-- Zenodo DOI: https://doi.org/10.5281/zenodo.21301426
-- ORCID work: https://orcid.org/0009-0000-2980-7543
-- Developer: Richard Amir Nasser
-- Publisher: Inspector Roofing and Restoration
+## Boundaries
 
-## Boundary
+Do not upload customer photos, addresses, claim files, insurance documents, tokens, credentials, or personally identifying information.
 
-Inspector DroneProof is independently developed and is not affiliated with, sponsored by, or endorsed by DJI.
+Direct aircraft control is not implemented. Inspector DroneProof is independently developed and is not affiliated with, sponsored by, certified by, or endorsed by DJI.
 
-Do not upload private customer photos, claim files, addresses, insurance documents, or personally identifying information to this public Hugging Face page.
+Inspector Roofing documents observable conditions and does not act as a public adjuster. Carriers decide coverage, payment, and claim outcomes.

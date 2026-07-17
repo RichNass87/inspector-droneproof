@@ -1,0 +1,43 @@
+{
+  "schemaVersion": "0.6.0",
+  "sample": true,
+  "property": {
+    "address": "DEIDENTIFIED",
+    "city": "Sample City",
+    "state": "GA",
+    "postalCode": "00000"
+  },
+  "mission": {
+    "missionId": "SYNTHETIC-MISSION-001",
+    "pilotReviewRequired": true,
+    "aircraftControlEnabled": false,
+    "waypoints": [
+      {
+        "waypointId": "WP-001",
+        "latitude": 0,
+        "longitude": 0,
+        "altitudeFeet": 50,
+        "headingDegrees": 0,
+        "cameraPitchDegrees": -75
+      }
+    ]
+  },
+  "photos": [
+    {
+      "photoId": "PHOTO-001",
+      "fileName": "synthetic-roof-overview.jpg",
+      "includedInRepository": false,
+      "roofPlane": "A"
+    }
+  ],
+  "observations": [
+    {
+      "observationId": "OBS-001",
+      "photoId": "PHOTO-001",
+      "roofPlane": "A",
+      "label": "Review area",
+      "note": "Synthetic example showing an observation requiring human review. No damage, causation, repair, coverage, or payment conclusion is made."
+    }
+  ],
+  "boundary": "Inspector Roofing documents observable conditions and does not act as a public adjuster. Carriers decide coverage, payment, and claim outcomes."
+}

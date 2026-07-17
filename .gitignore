@@ -1,0 +1,13 @@
+.DS_Store
+outputs/
+release-readiness-report.json
+release-readiness-report.md
+docs/sample-photo-damage-report.pdf
+
+# Android local and generated files
+android-app/.gradle/
+android-app/**/build/
+android-app/local.properties
+wordpress-plugin/assets/inspector-droneproof-pilot-debug.apk
+*.jks
+*.keystore

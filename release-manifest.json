@@ -1,0 +1,22 @@
+{
+  "title": "Inspector DroneProof",
+  "releaseVersion": "0.6.0",
+  "androidVersionName": "0.4.0-droneproof",
+  "androidVersionCode": 4,
+  "wordpressPluginVersion": "6.10.3",
+  "releaseDate": "2026-07-17",
+  "releaseState": "public",
+  "publicReleaseUrl": "https://github.com/RichNass87/inspector-droneproof/releases/tag/v0.6.0",
+  "canonicalPage": "https://inspector-roofing.com/droneproof/",
+  "packageName": "com.inspectorroofing.droneproofpilot",
+  "developer": "Richard Amir Nasser",
+  "publisher": "Inspector Roofing and Restoration",
+  "doi": "10.5281/zenodo.21301425",
+  "doiRelationship": "Concept DOI for all Inspector DroneProof versions",
+  "archivedVersionDoi": "10.5281/zenodo.21301426",
+  "archivedVersion": "0.5.0",
+  "directAircraftControl": false,
+  "googlePlayProductionClaimed": false,
+  "stableAmazonListingCaptured": false,
+  "compliancePagesDeployed": true
+}

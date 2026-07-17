@@ -1,0 +1,13 @@
+{
+  "fileName": "inspector-droneproof-pilot-release.aab",
+  "artifactType": "Android App Bundle",
+  "packageName": "com.inspectorroofing.droneproofpilot",
+  "versionName": "0.4.0-droneproof",
+  "versionCode": 4,
+  "targetSdk": 35,
+  "sha256": "0f929553ec1dc6e0eca72c2a64256fec6cbb4881294a376a02841985946cd61b",
+  "verifiedOn": "2026-07-16",
+  "publicReleaseAssetUrl": "https://github.com/RichNass87/inspector-droneproof/releases/download/v0.6.0/inspector-droneproof-pilot-release.aab",
+  "containsPrivateSigningKey": false,
+  "notes": "The checksum identifies the upload bundle. Signing credentials and private keys are not included."
+}
