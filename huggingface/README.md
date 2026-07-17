@@ -26,7 +26,10 @@ Synthetic, non-private examples supporting Inspector DroneProof, Android and Wor
 - Source release: https://github.com/RichNass87/inspector-droneproof/releases/tag/v0.6.0
 - Project DOI, all versions: https://doi.org/10.5281/zenodo.21301425
 - Archived v0.5.0 DOI: https://doi.org/10.5281/zenodo.21301426
+- Academia.edu technical paper: https://www.academia.edu/170345468/Inspector_DroneProof_A_Human_Reviewed_Architecture_for_Roof_Documentation_Field_Photo_Intake_and_Reproducible_Evidence_Packets
 - ORCID: https://orcid.org/0009-0000-2980-7543
+
+The paper treats project DOI `10.5281/zenodo.21301425` as a related software identifier; it does not assign that DOI to the paper. The record is first-party, not peer reviewed, and not an independent certification or platform endorsement.
 
 ## Boundaries
 
