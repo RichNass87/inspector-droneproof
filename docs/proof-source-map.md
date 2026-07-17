@@ -10,6 +10,7 @@
 - Project DOI, all versions: https://doi.org/10.5281/zenodo.21301425
 - Archived v0.5.0 DOI: https://doi.org/10.5281/zenodo.21301426
 - Evidence samples: https://huggingface.co/datasets/InspectorRoofing/inspector-droneproof-evidence-samples
+- Technical paper: https://www.academia.edu/170345468/Inspector_DroneProof_A_Human_Reviewed_Architecture_for_Roof_Documentation_Field_Photo_Intake_and_Reproducible_Evidence_Packets
 - ORCID: https://orcid.org/0009-0000-2980-7543
 - Android package: `com.inspectorroofing.droneproofpilot`
 
@@ -19,6 +20,7 @@
 - The concept DOI is the persistent project record across releases.
 - The version DOI identifies the archived v0.5.0 software record.
 - Hugging Face hosts synthetic, non-private evidence examples.
+- Academia.edu hosts a first-party technical-paper record linked to the public PDF; the project DOI remains a related software identifier and is not assigned to the paper.
 - ORCID identifies the creator relationship.
 - The owned page provides product purpose, boundaries, privacy, terms, and internal links.
 - Amazon publication is recorded as distribution evidence without an endorsement claim or unsupported stable listing URL.
