@@ -18,11 +18,14 @@ Inspector DroneProof is Android and WordPress roof-documentation software develo
 | Project DOI, all versions | https://doi.org/10.5281/zenodo.21301425 |
 | Archived v0.5.0 DOI | https://doi.org/10.5281/zenodo.21301426 |
 | Evidence samples | https://huggingface.co/datasets/InspectorRoofing/inspector-droneproof-evidence-samples |
+| Technical paper | https://www.academia.edu/170345468/Inspector_DroneProof_A_Human_Reviewed_Architecture_for_Roof_Documentation_Field_Photo_Intake_and_Reproducible_Evidence_Packets |
 | ORCID | https://orcid.org/0009-0000-2980-7543 |
 | Privacy | https://inspector-roofing.com/privacy-policy/ |
 | Terms | https://inspector-roofing.com/terms/ |
 
 The evidence-package version and Android application version are different identifiers. They must not be presented as the same release number. Zenodo DOI `10.5281/zenodo.21301425` is the project-level concept DOI. DOI `10.5281/zenodo.21301426` identifies the archived `v0.5.0` software record and is retained only with that version label.
+
+The technical paper treats the project DOI as a related software identifier; it does not assign that DOI to the paper. The paper record is first-party, not peer reviewed, and not an independent certification or platform endorsement.
 
 ## Implemented scope
 
