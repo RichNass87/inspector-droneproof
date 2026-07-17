@@ -20,7 +20,8 @@
       "sameAs": [
         "https://github.com/RichNass87/inspector-droneproof/releases/tag/v0.6.0",
         "https://doi.org/10.5281/zenodo.21301425",
-        "https://huggingface.co/datasets/InspectorRoofing/inspector-droneproof-evidence-samples"
+        "https://huggingface.co/datasets/InspectorRoofing/inspector-droneproof-evidence-samples",
+        "https://www.academia.edu/170345468/Inspector_DroneProof_A_Human_Reviewed_Architecture_for_Roof_Documentation_Field_Photo_Intake_and_Reproducible_Evidence_Packets"
       ],
       "identifier": [
         {
@@ -35,11 +36,19 @@
           "url": "https://doi.org/10.5281/zenodo.21301425"
         }
       ],
-      "subjectOf": {
-        "@type": "CreativeWork",
-        "name": "Inspector DroneProof v0.5.0 archived software record",
-        "url": "https://doi.org/10.5281/zenodo.21301426"
-      },
+      "subjectOf": [
+        {
+          "@type": "CreativeWork",
+          "name": "Inspector DroneProof v0.5.0 archived software record",
+          "url": "https://doi.org/10.5281/zenodo.21301426"
+        },
+        {
+          "@type": "ScholarlyArticle",
+          "name": "Inspector DroneProof: A Human-Reviewed Architecture for Roof Documentation, Field-Photo Intake, and Reproducible Evidence Packets",
+          "url": "https://www.academia.edu/170345468/Inspector_DroneProof_A_Human_Reviewed_Architecture_for_Roof_Documentation_Field_Photo_Intake_and_Reproducible_Evidence_Packets",
+          "isBasedOn": "https://github.com/RichNass87/inspector-droneproof/releases/tag/v0.6.0"
+        }
+      ],
       "creator": {
         "@type": "Person",
         "@id": "https://inspector-roofing.com/#richard-amir-nasser",
